@@ -2,5 +2,24 @@
     background-image: url('/img/background_car.svg');
     background-repeat: no-repeat;
     background-position: center; 
-    min-height: 970px;
+    height: 1080px;
+    width: 1920px;
+}
+
+.banner_container h1{
+    margin-top: 300px;
+    font-family:'Cinematografica'; /*tem q adicionar essa fonte em uma pasta fonts*/
+    color: #FFFFFF;
+    font-size: 200px;
+    height: 147px;
+    width: 404px;
+
+}
+
+.banner_container p{
+    margin-top: 60px;
+    color: #FFFFFF;
+    font-size: 32px;
+    height: 60px;
+    width: 680px;
 }
