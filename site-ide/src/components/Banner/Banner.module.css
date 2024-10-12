@@ -1,5 +1,6 @@
 .banner_container{
     background-image: url('/img/background_car.svg');
     background-repeat: no-repeat;
+    background-position: center; 
     min-height: 970px;
 }
