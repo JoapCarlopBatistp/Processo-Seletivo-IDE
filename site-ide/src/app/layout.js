@@ -8,9 +8,11 @@ export default function App(){
     return(
         <html lang="en">
             <body>
-                <h1>ola</h1>
-                <Navbar/>
-                <Footer/>
+                <div className='container'>
+                    <Navbar/>
+                    <h1>conteúdo</h1>
+                    <Footer/>
+                </div>
             </body>
         </html>
     )

@@ -1,0 +1,29 @@
+:root{
+    --bc: white;
+    --text: black;
+    --text_hover: #e5e5e5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--bc);
+    color: var(--text);
+}
+
+a{
+    text-decoration: none;
+    color: var(--text);
+}
+
+.container{
+    background-color: blanchedalmond;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
