@@ -1,8 +1,11 @@
-import Navbar from '@/components/Navbar/Navbar.jsx'
+import styles from'./Banner.module.css'
 
 const Banner = () => {
     return(
-        <h1></h1>
+        <div className={styles.banner_container}>
+            <h1>CineIDE</h1>
+            <p>Clássicos do terror, onde o pavor nunca sai de cena</p>
+        </div>
     )
 }
 
