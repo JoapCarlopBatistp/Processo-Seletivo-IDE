@@ -2,9 +2,9 @@ import styles from './Filmes_cartaz.module.css'
 
 const Filmes_cartaz = () => {
     return(
-        <div className={styles.filmes_container}>
+        <section className={styles.filmes_container} id='Catalogo'>
             Filmes em cartaz
-        </div>
+        </section>
     )
 }
 

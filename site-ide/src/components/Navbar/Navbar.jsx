@@ -1,13 +1,37 @@
+/*import Link from 'next/link'*/
 import styles from'./Navbar.module.css'
+import React, { useEffect } from 'react';
+import { Link} from 'react-scroll';
 
+/*Detalhe (caso alguém mexa nisso depois de mim): 
+    Pra adicionar um novo checkpoint pro scroll só é necessário criar uma <section id='blablabla'> e um <Link> correspondente
+*/
 const Navbar = () => {
     return(
-        <div className={styles.navbar}>
-            <a href="#home">HOME</a>
-            <a href="#news">CATÁLOGO</a>
-            <a href="#contact">ASSASSINOS</a>
-            <a href="#contact">INGRESSOS</a>
-        </div>
+        <nav className={styles.navbar}>
+            <ul>
+                <li>
+                    <Link activeClass="active" smooth spy to="Home" className={styles.link_navbar}>
+                        HOME
+                    </Link>
+                </li>
+                <li>
+                    <Link activeClass="active" smooth spy to="Catalogo" className={styles.link_navbar}>
+                        CATÁLOGO
+                    </Link>
+                </li>
+                <li>
+                    <Link activeClass="active" smooth spy to="Assassinos" className={styles.link_navbar}>
+                        ASSASSINOS
+                    </Link>
+                </li>
+                <li>
+                    <Link activeClass="active" smooth spy to="Ingressos" className={styles.link_navbar}>
+                        INGRESSOS
+                    </Link>
+                </li>
+            </ul>
+        </nav>
     )
 }
 

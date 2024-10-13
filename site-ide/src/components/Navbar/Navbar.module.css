@@ -1,5 +1,5 @@
 
-.navbar{
+.navbar ul{
     height: 150px;
     display: flex;
     align-items: center;
@@ -11,7 +11,7 @@
 }
 
 
-.navbar a {
+.link_navbar {
     height: 40px;
     padding: 10px;
     margin: 96px;
@@ -22,7 +22,7 @@
     font-size: 40px;
   }
   
-.navbar a:hover {
+.link_navbar:hover {
     background-color: #e5e5e5;
     color: black;
 }

@@ -1,4 +1,5 @@
-import React from 'react'
+"use client"
+import React, {useEffect} from 'react'
 import './globals.css'
 import Banner from '@/components/Banner/Banner.jsx'
 import Filmes from '@/components/Filmes_cartaz/Filmes_cartaz.jsx'
@@ -6,8 +7,7 @@ import Formulario from '@/components/Formulario/Formulario.jsx'
 import Footer from '@/components/Footer/Footer.jsx'
 
 
-
-export default function App(){
+function App(){
     return(
         <html lang="en">
             <body>
@@ -22,3 +22,9 @@ export default function App(){
         </html>
     )
 }
+
+App.getInitialProps = async (ctx) => {
+    return {}
+}
+
+export default App
