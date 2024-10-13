@@ -8,7 +8,7 @@ const Formulario = () => {
                 <form>
                     <input type='text' placeholder='NOME'></input>
                     <input type='text' placeholder='EMAIL'></input>
-                    <input type='text' placeholder='FILME PREFERIO'></input>
+                    <input type='text' placeholder='FILME PREFERIDO'></input>
                     <input type='text' placeholder='NÍVEL DE CORAGEM'></input>
                     <button type='Submit'>Enviar</button>
                 </form>
