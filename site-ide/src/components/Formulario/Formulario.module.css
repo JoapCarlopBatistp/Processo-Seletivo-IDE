@@ -1,0 +1,37 @@
+.form_container{
+    width: 1920px;
+    height: 1080px;
+    display: inline-block;
+    background-color: black;  /*mudar por aquele gradiente laranja-preto no futuro*/
+}
+
+.form_container h2{
+    margin-top: 84px;
+    margin-left: 182px;
+    display: block;
+    width:541px;
+    height:55px;
+    text-align: center;
+    font-size: 55px;
+    color: #FFFF;
+    font-family: 'milanello';
+    line-height: 55.33px;
+}
+.campos_form{
+    margin-top: 106px;
+    margin-left: 182px;
+    display: inline-block;
+    width: 995px;
+    height: 552px;
+    background-color: antiquewhite;
+}
+
+.campos_form input{
+    display:inline-block;
+}
+.imagem_gato{
+    margin-left: 30px;
+    margin-top: 106px;
+    display: inline-block;
+    position: absolute;
+}
