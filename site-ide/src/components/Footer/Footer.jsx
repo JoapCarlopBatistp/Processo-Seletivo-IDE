@@ -1,6 +1,10 @@
+import styles from './Footer.module.css'
+
 const Footer = () => {
     return(
-        <div>Footer</div>
+        <div className={styles.footer_container}>
+            <img src='/img/redes_sociais.svg' className={styles.img_redes}></img>
+        </div>
     )
 }
 

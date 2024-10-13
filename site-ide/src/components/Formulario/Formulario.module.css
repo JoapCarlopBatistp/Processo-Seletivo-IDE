@@ -2,7 +2,7 @@
     width: 1920px;
     height: 1080px;
     display: inline-block;
-    background-color: black;  /*mudar por aquele gradiente laranja-preto no futuro*/
+    background-color: black;  /*mudar por aquele gradiente laranja-preto no futuro*/ 
 }
 
 .form_container h2{
@@ -64,4 +64,9 @@
     padding-left: 40px;
     font-weight: 400;
     font-size: 15px;
+}
+
+.campos_form button:hover{
+    background-color: #D45827;
+    color:black;
 }

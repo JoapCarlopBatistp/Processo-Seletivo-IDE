@@ -1,6 +1,7 @@
 import React from 'react'
 import './globals.css'
 import Banner from '@/components/Banner/Banner.jsx'
+import Filmes from '@/components/Filmes_cartaz/Filmes_cartaz.jsx'
 import Formulario from '@/components/Formulario/Formulario.jsx'
 import Footer from '@/components/Footer/Footer.jsx'
 
@@ -12,7 +13,8 @@ export default function App(){
             <body>
                 <div className='container'>
                     <Banner/>
-                    <h1>conteúdo</h1>
+                    <Filmes/>
+                    <h1>Falta colocar os assassinos aqui</h1>
                     <Formulario/>
                     <Footer/>
                 </div>
