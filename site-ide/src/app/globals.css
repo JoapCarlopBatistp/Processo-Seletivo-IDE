@@ -4,6 +4,16 @@
     --text_hover: #e5e5e5;
 }
 
+@font-face {
+    font-family: "cinematografica";
+    src: url('/fonts/cinematografica.ttf');
+}
+
+@font-face {
+    font-family: "cairo";
+    src: url('/fonts/Cairo.ttf');
+}
+
 *{
     margin: 0;
     padding: 0;
