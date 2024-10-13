@@ -10,7 +10,7 @@ const Formulario = () => {
                     <input required name='Email'></input>
                     <input required name='Filme Preferido'></input>
                     <input required name='Nível de Coragem'></input>
-                    <button>Enviar</button>
+                    <button type='Submit'>Enviar</button>
                 </form>
             </div>
             <div className={styles.imagem_gato}>
