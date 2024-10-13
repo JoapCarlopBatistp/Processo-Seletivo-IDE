@@ -6,10 +6,10 @@ const Formulario = () => {
             <h2>COMPRAR INGRESSO</h2>
             <div className={styles.campos_form}>
                 <form>
-                    <input required name='Nome'></input>
-                    <input required name='Email'></input>
-                    <input required name='Filme Preferido'></input>
-                    <input required name='Nível de Coragem'></input>
+                    <input type='text' placeholder='NOME'></input>
+                    <input type='text' placeholder='EMAIL'></input>
+                    <input type='text' placeholder='FILME PREFERIO'></input>
+                    <input type='text' placeholder='NÍVEL DE CORAGEM'></input>
                     <button type='Submit'>Enviar</button>
                 </form>
             </div>
