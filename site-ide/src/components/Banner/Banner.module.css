@@ -2,21 +2,23 @@
     background-image: url('/img/background_car.svg');
     background-repeat: no-repeat;
     background-position: center; 
+    background-size:cover;
     height: 1080px;
-    width: 1920px;
 }
 
 
 .banner_container h1{
     text-align: center;
-    margin-top: 687px;
-    margin-left: 1334px;
+    margin-top: 680px;
+    margin-left: 65%;
     font-family: 'cinematografica'; /*tem q adicionar essa fonte em uma pasta fonts*/ /*adicionado*/
     color: #FFFFFF;
     font-size: 200px;
     height: 147px;
     width: 404px;
     letter-spacing: 22px;
+
+
 
 }
 
@@ -29,6 +31,64 @@
     height: 60px;
     width: 680px;
     margin-top: 40px;
-    margin-left: 1059px;
+    margin-left: 51%;
+    text-align: right;
 }
 
+/*Desktop*/
+@media only screen and (max-width: 1396px) {
+    .banner_container h1{
+        margin-left: 50%;
+    }
+
+    .banner_container p{
+        margin-left:36%;
+    }
+}
+
+/*Laptops*/
+@media only screen and (max-width: 1079px) {
+    .banner_container h1{
+        margin-left: 35%;
+    }
+
+    .banner_container p{
+        margin-left:21%;
+    }
+
+
+}
+
+/*Tablets*/
+@media only screen and (max-width: 870px) {
+    .banner_container h1{
+        margin-left: 25%;
+    }
+
+    .banner_container p{
+        margin-left:11%;
+    }
+}
+
+/*Celulares*/
+@media only screen and (max-width: 768px) {
+    .banner_container h1{
+        margin-left: 20%;
+    }
+
+    .banner_container p{
+        margin-left:2%;
+    }
+}
+
+/*Celulares pequenos*/
+@media only screen and (max-width: 702px) {
+    .banner_container h1{
+        margin-left: 10%;
+    }
+
+    .banner_container p{
+        margin-left:0px;
+    }
+
+}

@@ -28,6 +28,8 @@
 body{
     background-color: var(--bc);
     color: var(--text);
+    width:100vw;
+    overflow-x: hidden;
 }
 
 a{
@@ -37,7 +39,6 @@ a{
 
 .container{
     background-color: blanchedalmond;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

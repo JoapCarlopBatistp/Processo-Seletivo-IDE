@@ -14,7 +14,7 @@ const Formulario = () => {
                 </form>
             </div>
             <div className={styles.imagem_gato}>
-                <img src="/img/gato_morto.svg" alt="Gato morto" width="521" height="511"/>
+                <img src="/img/gato_morto.svg" alt="Gato morto"/>
             </div>
         </section>
     )
