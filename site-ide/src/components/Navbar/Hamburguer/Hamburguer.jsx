@@ -11,7 +11,6 @@ export default function Hamburger() {
     toggleRef.current.classList.toggle(Styles.active);
 
     const x = document.getElementsByClassName(Styles_navbar.link_navbar);
-    console.log(x);
     for (let i = 0; i < 4; i++){
       if (x[i].style.display === "flex") {
         x[i].style.display = "none";
@@ -24,9 +23,9 @@ export default function Hamburger() {
   return (
     <>
       <div
-        
         className={Styles.hamburger}
         onClick={handleHamburgerMenu}
+        onResize={handleHamburgerMenu}
         ref={toggleRef}
       ></div>
 
