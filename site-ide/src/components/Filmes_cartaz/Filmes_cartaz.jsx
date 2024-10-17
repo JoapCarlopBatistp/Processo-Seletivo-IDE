@@ -21,7 +21,7 @@ const images = [
 ];
 const Filmes_cartaz = () => {
   return (
-    <section className={styles.filmes_container} id="Catalogo">
+    <section className={styles.filmes_container}>
       <h3>Filmes em cartaz</h3>              /*Falta ajustar o titulo do componente*/ 
       <div className={styles.grid_container}>
         {images.map((image, index) => (

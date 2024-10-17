@@ -8,6 +8,7 @@ const Banner = () => {
  
             <h1 id='Home'>CineIDE</h1>
             <p>Clássicos do terror, onde o pavor nunca sai de cena</p>
+            <div id='Catalogo'>aqui</div>
             
         </section>
     )

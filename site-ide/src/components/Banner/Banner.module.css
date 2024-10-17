@@ -6,7 +6,6 @@
     height: 1080px;
 }
 
-
 .banner_container h1{
     text-align: center;
     margin-top: 680px;
@@ -22,6 +21,11 @@
 
 }
 
+/*Essa Div é a que contém o ID catálogo para o react-scroll*/
+.banner_container div{
+    margin-top: 95px;
+}
+
 .banner_container p{
     line-height: 59.97px;
     text-align: right;
@@ -34,6 +38,7 @@
     margin-left: 51%;
     text-align: right;
 }
+
 
 /*Desktop*/
 @media only screen and (max-width: 1396px) {

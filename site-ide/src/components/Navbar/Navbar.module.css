@@ -41,16 +41,27 @@
   transition:0.3s;
 }
 
+
+@media (min-width: 1131px) {
+
+  .link_navbar {
+    display: flex;
+  }
+}
+
 /* Responsividade */
 @media (max-width: 1130px) {
+
   .navbar ul {
     flex-direction: column; 
     height: auto; 
     padding-left: 0;
+    display:flex;
   }
 
   .link_navbar {
     font-size: 30px;
     margin: 10px 0; 
+    display: none;
   }
 }

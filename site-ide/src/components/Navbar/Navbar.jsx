@@ -2,11 +2,13 @@
 import styles from'./Navbar.module.css'
 import React, { useEffect } from 'react';
 import { Link} from 'react-scroll';
+import Hamburguer from './Hamburguer/Hamburguer.jsx'
 
 /*Detalhe (caso alguém mexa nisso depois de mim): 
     Pra adicionar um novo checkpoint pro scroll só é necessário criar uma <section id='blablabla'> e um <Link> correspondente
 */
 const Navbar = () => {
+
     return(
         <nav className={styles.navbar}>
             <ul>
@@ -30,6 +32,9 @@ const Navbar = () => {
                         INGRESSOS
                     </Link>
                 </li>
+
+                <Hamburguer/>
+                
             </ul>
         </nav>
     )
