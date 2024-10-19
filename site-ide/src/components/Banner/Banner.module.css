@@ -97,3 +97,10 @@
     }
 
 }
+
+@media only screen and (max-width: 695px) {
+    .banner_container p{
+        display:none;
+    }
+
+}

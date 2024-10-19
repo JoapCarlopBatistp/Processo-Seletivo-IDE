@@ -1,7 +1,6 @@
 .form_container{
     height: 1080px;
-    display: inline-block;
-    background-color: black;  /*mudar por aquele gradiente laranja-preto no futuro*/ 
+    display: inline-block; /*mudar por aquele gradiente laranja-preto no futuro*/ 
 }
 
 .form_container h2{
@@ -143,6 +142,8 @@
     display: none;
   }
   .form_container h2{
-    margin-left: 80px;
+    margin-left: 200px;
+    width: 200px;
+    font-size: 30px;
   }
 }
